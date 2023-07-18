@@ -1,0 +1,83 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans|Roboto:400,700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  background-color: #F8EEE7;
+  font-family: "Open Sans", sans-serif;
+  color: #94618E;
+}
+
+section {
+  margin: 100px 10%;
+  text-align: center;
+}
+
+section h3 {
+  margin-bottom: 20px;
+  text-transform: uppercase;
+  font-family: "Roboto", sans-serif;
+  color: #49274a;
+  letter-spacing: 0.4rem;
+  word-spacing: 0.5rem;
+  font-size: 1.8rem;
+}
+
+form {
+  padding-top: 20px;
+  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+form label {
+  font-size: 1.3rem;
+  letter-spacing: 0.3rem;
+}
+
+form input {
+  border: transparent;
+  height: 2rem;
+  border-radius: 7px;
+  width: 70px;
+  padding: 0 8px;
+  font-size: 1.25rem;
+  margin-right: 10px;
+}
+
+form button {
+  text-transform: uppercase;
+  padding: 5px 10px;
+  border: transparent;
+  background-color: #94618E;
+  color: #F4DECB;
+  letter-spacing: 0.2rem;
+  border-radius: 5px;
+  height: auto;
+}
+
+
+@media screen and (max-width: 1170px) {
+  section h3 {
+    font-size: 1.3rem;
+  }
+}
+
+@media screen and (max-width: 390px) {
+  section h3 {
+    font-size: 1rem;
+  }
+
+  form label {
+    font-size: 1rem;
+    letter-spacing: 0.2rem;
+  }
+}
