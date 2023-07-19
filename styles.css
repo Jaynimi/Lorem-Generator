@@ -1,120 +1,126 @@
 @import url("https://fonts.googleapis.com/css?family=Open+Sans|Roboto:400,700&display=swap");
 
 * {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
 }
 
 body {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  background-color: #F8EEE7;
-  font-family: "Open Sans", sans-serif;
-  color: #94618E;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	background-color: #f8eee7;
+	font-family: "Open Sans", sans-serif;
+	color: #94618e;
 }
 
 section {
-  margin: 100px 10%;
-  text-align: center;
+	margin: 100px 10%;
+	text-align: center;
 }
 
 section h3 {
-  margin-bottom: 20px;
-  text-transform: uppercase;
-  font-family: "Roboto", sans-serif;
-  color: #49274a;
-  letter-spacing: 0.4rem;
-  word-spacing: 0.5rem;
-  font-size: 1.8rem;
+	margin-bottom: 20px;
+	text-transform: uppercase;
+	font-family: "Roboto", sans-serif;
+	color: #49274a;
+	letter-spacing: 0.4rem;
+	word-spacing: 0.5rem;
+	font-size: 1.8rem;
 }
 
 form {
-  padding-top: 20px;
-  text-align: center;
-  display: flex;
-  /* flex-wrap: wrap; */
-  justify-content: center;
-  place-items: center;
+	padding-top: 20px;
+	text-align: center;
+	display: flex;
+	/* flex-wrap: wrap; */
+	justify-content: center;
+	place-items: center;
 }
 
 form label {
-  font-size: 1.3rem;
-  letter-spacing: 0.3rem;
+	font-size: 1.3rem;
+	letter-spacing: 0.3rem;
 }
 
 form input {
-  border: transparent;
-  height: 2rem;
-  border-radius: 7px;
-  width: 70px;
-  padding: 0 8px;
-  font-size: 1.25rem;
-  margin-right: 10px;
-  color: #49274a;
+	border: transparent;
+	height: 2rem;
+	border-radius: 7px;
+	width: 70px;
+	padding: 0 8px;
+	font-size: 1.25rem;
+	margin-right: 10px;
+	color: #49274a;
 }
 
 form button {
-  text-transform: uppercase;
-  padding: 5px 10px;
-  border: transparent;
-  background-color: #94618E;
-  color: #F4DECB;
-  letter-spacing: 0.2rem;
-  border-radius: 5px;
-  height: auto;
+	text-transform: uppercase;
+	padding: 5px 10px;
+	border: transparent;
+	background-color: #94618e;
+	color: #f4decb;
+	letter-spacing: 0.2rem;
+	border-radius: 5px;
+	height: auto;
 }
 
+.result {
+	margin: 60px 0;
+	word-spacing: 0.5rem;
+	line-height: 1.5rem;
+	font-size: 0.9rem;
+}
 
 /* Making It Responsive */
 @media screen and (max-width: 1170px) {
-  section h3 {
-    font-size: 1.3rem;
-  }
+	section h3 {
+		font-size: 1.3rem;
+	}
 }
 
 @media screen and (max-width: 470px) {
-  section h3 {
-    font-size: 1.15rem;
-  }
+	section h3 {
+		font-size: 1.15rem;
+	}
 
-  form label {
-    font-size: 0.92rem;
-    letter-spacing: 0.3rem;
-  }
+	form label {
+		font-size: 0.92rem;
+		letter-spacing: 0.3rem;
+	}
 
-  form input {
-    width: 55px;
-    padding: 2px 8px;
-    font-size: 0.92rem;
-  }
+	form input {
+		width: 55px;
+		padding: 2px 8px;
+		font-size: 0.92rem;
+	}
 
-  form button {
-    font-size: 0.65rem;
-    letter-spacing: 0.2rem;
-  }
+	form button {
+		font-size: 0.65rem;
+		letter-spacing: 0.2rem;
+	}
 }
 
 @media screen and (max-width: 390px) {
-  section h3 {
-    font-size: 1rem;
-  }
+	section h3 {
+		font-size: 1rem;
+	}
 
-  form label {
-    font-size: 0.8rem;
-    letter-spacing: 0.2rem;
-  }
+	form label {
+		font-size: 0.8rem;
+		letter-spacing: 0.2rem;
+	}
 
-  form input {
-    width: 40px;
-    padding: 0 8px;
-    font-size: 0.8rem;
-    margin-right: 10px;
-  }
+	form input {
+		width: 40px;
+		padding: 0 8px;
+		font-size: 0.8rem;
+		margin-right: 10px;
+	}
 
-  form button {
-    font-size: 0.6rem;
-    letter-spacing: 0.11rem;
-  }
+	form button {
+		font-size: 0.6rem;
+		letter-spacing: 0.11rem;
+	}
 }
